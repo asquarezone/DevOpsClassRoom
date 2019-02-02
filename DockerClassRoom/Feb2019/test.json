@@ -1,0 +1,55 @@
+{
+    "test": {
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:e8769e218081127b7c313bde4a0ba2cb0107d72167b5c0d198bfb5dadfd81ad6",
+                "sha256:d1b9ba926eff7fe934a15b295c9d86e899aa0d9ebdd9064501ffe28ae6ab3f7f",
+                "sha256:8f9b85d7bbd37cd511f70bb4d25078177cd7f0d2b7644cd7f545b60e084d6b09",
+                "sha256:40f4c1f68b3783868af0759c34c67d7338b0a640b3a452275dd34541424a7f24",
+                "sha256:f34b265663fff61a3aab6bfffe69b623cd37f5a0b731667dfe794598da7f26c9"
+            ]
+        },
+        "Dockerfile": ["ubuntu:trusty", "apt-get update && apt-get install git -y"]
+    },
+
+    "test2" : {
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:e8769e218081127b7c313bde4a0ba2cb0107d72167b5c0d198bfb5dadfd81ad6",
+                "sha256:d1b9ba926eff7fe934a15b295c9d86e899aa0d9ebdd9064501ffe28ae6ab3f7f",
+                "sha256:8f9b85d7bbd37cd511f70bb4d25078177cd7f0d2b7644cd7f545b60e084d6b09",
+                "sha256:40f4c1f68b3783868af0759c34c67d7338b0a640b3a452275dd34541424a7f24",
+                "sha256:0829ea9f2cabc10943b5a22394c5d19c8c6f7d8ea9d7b4a4d8df579da09f5fdd"
+            ]
+        }
+    },
+
+    "test3": {
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:e8769e218081127b7c313bde4a0ba2cb0107d72167b5c0d198bfb5dadfd81ad6",
+                "sha256:d1b9ba926eff7fe934a15b295c9d86e899aa0d9ebdd9064501ffe28ae6ab3f7f",
+                "sha256:8f9b85d7bbd37cd511f70bb4d25078177cd7f0d2b7644cd7f545b60e084d6b09",
+                "sha256:40f4c1f68b3783868af0759c34c67d7338b0a640b3a452275dd34541424a7f24",
+                "sha256:f34b265663fff61a3aab6bfffe69b623cd37f5a0b731667dfe79459da7f26c9",
+                "sha256:ec81fcdbb3f224f45f4bc30c1985d6a2ad1e2c01a5f3654f6c93904bf81c6789"
+            ]
+        }
+    },
+    "ubuntutrusty":{
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:e8769e218081127b7c313bde4a0ba2cb0107d72167b5c0d198bfb5dadfd81ad6",
+                "sha256:d1b9ba926eff7fe934a15b295c9d86e899aa0d9ebdd9064501ffe28ae6ab3f7f",
+                "sha256:8f9b85d7bbd37cd511f70bb4d25078177cd7f0d2b7644cd7f545b60e084d6b09",
+                "sha256:40f4c1f68b3783868af0759c34c67d7338b0a640b3a452275dd34541424a7f24"
+            ]
+        }
+    }
+
+
+}
