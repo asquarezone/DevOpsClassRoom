@@ -18,7 +18,7 @@ end repeat
 return isPrime
 end function
 
-function largestFactor: input 
+function largestFactor: number 
 
 repeat index from number/2 till 2
 if number % index == 0
