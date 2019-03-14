@@ -30,4 +30,21 @@ ansible (ALL:ALL) NOPASSWD:ALL
 ```
 * Install Python & Ansible
     * Follow instructions [from here](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#latest-releases-via-apt-ubuntu)
+
+* Inventory
+    * System Level Inventory:
+        * /etc/ansible created during ansible installation
+        * /etc/ansible/hosts => default inventory
+
+* Configure nodes for ansible access
+    * Give no password access
+    * Create a key pair
+      ```
+      ssh-keygen
+      ```
+    * copy public to nodes
+    ```
+    ssh-copy-id ansible@<node-ip>
+    ```
+    * then use ansible ping command to check
     
