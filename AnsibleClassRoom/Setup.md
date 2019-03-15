@@ -25,7 +25,7 @@ service sshd restart
 visudo
 # scroll to the line where you see %sudo or wheel
 # and add the below line
-ansible (ALL:ALL) NOPASSWD:ALL
+ansible ALL=(ALL:ALL) NOPASSWD:ALL
 
 ```
 * Install Python & Ansible
