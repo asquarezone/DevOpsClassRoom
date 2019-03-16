@@ -1,0 +1,16 @@
+buslist:
+  - travels: Orange travels
+    source:  KPHB
+    destination: Vizag
+    type: Sleeper
+    via:
+      - Suryapet
+      - Vijayawada
+      - Rjy
+  - travels: Kaveri
+    source: BHEL
+    destination: Bangalore
+    type: seater
+    via:
+      - kurnool
+      - ananthapur 

@@ -1,0 +1,10 @@
+name: Captian Marvel
+age: 150
+superhero: yes
+avengers:
+  - IronMan
+  - Captian America
+  - Thor
+Address:
+  City: Hyderabad
+  Pincode: 500018
