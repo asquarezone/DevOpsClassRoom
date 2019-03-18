@@ -1,3 +1,4 @@
+---
 name: 
 contactno:
 emailid: 
@@ -14,3 +15,5 @@ Work Experience:
     designation:
     Roles& Responsibilities:
       - Responsible for building DevOps Pipeline
+---
+# --- significance is to write multiple yaml structures in same file
