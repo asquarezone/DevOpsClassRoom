@@ -29,4 +29,7 @@
 Configure Ansible control server to communicate with the 3 nodes
 as shown below
 ![Preview](./images/ansibleactivity.png)
+
+* Workbook items [Refer](https://github.com/asquarezone/ChefZone/blob/master/Workbook/nodejs/Workbooks.md)
+
   
