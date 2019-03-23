@@ -33,4 +33,6 @@
 [Refer](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html#list-of-behavioral-inventory-parameters)
 
 
-## Ansible Configurations
+## Ansible Concurrency
+* Concurrency is set by forking (-f)
+* ansible -m ping all -f 100
