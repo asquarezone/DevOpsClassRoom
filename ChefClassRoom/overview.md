@@ -23,6 +23,10 @@
         * Manual 
         * Automatic
 
+* Convergance: 
+    * Is the time/moment when node communicates with chef server
+    * Do i have any cook books to execute
+    * default convergance is 30 minutes & can be changed
 
 # Workstation Setup
 * Prereq's:
@@ -54,3 +58,14 @@
         ```
         knife bootstrap
         ```
+    * Requirements:
+        * chef dk installed
+        * starter kit available
+        * username, password/key, ip address of node 
+        * build bootstrap command following this [link](https://docs.chef.io/knife_bootstrap.html)
+
+    * Build Bootstrap command
+    ```
+    knife bootstrap <ipadress> -x <username> -i <identityfilepath> --sudo -N <Name of the node>
+    ```
+    ![Preview](./images/demonstration.png)
