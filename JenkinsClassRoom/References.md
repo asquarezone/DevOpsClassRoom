@@ -1,0 +1,1 @@
+1. [MSBUILD & Jenkins](https://www.codeproject.com/Articles/878203/Integrate-Jenkins-with-MSBuild-and-NuGet)
