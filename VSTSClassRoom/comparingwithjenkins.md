@@ -4,4 +4,4 @@
 
 ## Server-Agent in Azure DevOps
 
-![Preview](./images/AzureDevOps.png)
+![Preview](./images/AzureDevOpsArch.png)
