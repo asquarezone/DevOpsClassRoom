@@ -28,6 +28,8 @@ sh get-docker.sh
 sudo -i
 
 ```
+## Docker image to Container
+![Preview](./images/dockerimageregistry.png)
 
 
 
