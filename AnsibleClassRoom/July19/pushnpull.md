@@ -11,3 +11,8 @@
     * No user credentials required
 
 ![Preview](./images/pushnpull.png)
+
+
+## What has to be done to configure Ansible?
+
+![Preview](./images/overview.png)
