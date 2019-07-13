@@ -16,3 +16,7 @@
 ## What has to be done to configure Ansible?
 
 ![Preview](./images/overview.png)
+
+
+## Idempotance
+execution irrespective of number of times leads to same result
